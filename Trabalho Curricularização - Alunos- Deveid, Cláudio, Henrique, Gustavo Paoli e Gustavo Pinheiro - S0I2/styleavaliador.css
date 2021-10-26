@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.info_header {
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.faixa_menu {
+    height: 180px;
+    background-color: #216431;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logobq {
+    width: 150px;
+    height: 50px;
+}
+.logo_name {
+    width: 420px;
+    height: 350px;
+}
+.menu_avaliacao {
+    display: flex;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+.menu_avaliacao h1 {
+    margin-right: 150px;
+    font-weight: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sair:hover {
+    background-color: #174321;
+    cursor: pointer;
+}
+.projetos_avaliados {
+    background-color: #FFDE59;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border: 3px dashed #CFAE26;
+}
+.projetos_avaliados h1 {
+    color: #216431;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #174321;
+    font-family: 'Crimson Text', 'serif';
+    cursor: pointer;
+}
+.sair a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;   
+}
+.set {
+    margin-left: 20px;
+    width: 22px;
+    height: 16px;
+    cursor: pointer;
+}
+.text_avaliados {
+    height: 650px;
+    display: none;
+    align-items: center;
+}
+.text_avaliados h1 {
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text_avaliados p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fim {
+    background-color: #216431;
+    height: 160px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fim h1 {
+    padding-top: 40px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+.fim p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    text-shadow: 2px 2px 3px #000;
+}
+.box_expro {
+    border: 2px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.text_navaliados{
+    height: auto;
+    display: none;
+    align-items: center;
+}
+.text_navaliados p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text_navaliados h1 {
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box_obs {
+    border: 2px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+.lab {
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#input {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.botaolab {
+    width: 60px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+    padding: 10px;
+    text-align: center;
+}
+.ultnot {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Conselho Muncipal de Cultura de Brusque - SC</title>
+    <meta charsert='UTF-8'/>
+    <meta name="viewport" content="width=device-width,user-scalable=0"/>
+    <link rel="stylesheet" type="text/css" href="usuario.css"/>
+    <script defer src="proponente.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="box_header">
+            <div class="info_header">
+                <span class="namepag">Conselho Municipal de Cultura - Brusque - SC</span>
+                <img class="logobq" src="image/logo_bq.png"/>
+                <span class="contato">conselho@fcbrusque.sc.gov.br</span>
+            </div>
+            <div class="faixa_menu">
+                <div class="logo">
+                    <img class="logo_name" src="image/logo.png"/>
+                </div> 
+                <div class="menu_avaliacao">
+                    <div>
+                        <h1>PÁGINA DO USUÁRIO</h1>
+                    </div>
+                    <div>
+                        <h1 class="sair"><a href="paginicial.html">SAIR</a></h1>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="box_totalpag">
+            <div class="box_infoproj">
+                <div>
+                    <h1>INFORME A CATEGORIA</h1>
+                    <form id="Formulario">
+                        <label for="Input"> Qual a Categoria: </label>
+                        <input id="Input" class="textte" type="text" name="nome"/>
+                    </form>
+                    <br>
+                    <div>
+                        <h1>Categoria(s) Selecionada:</h1>
+                            <div class="textcat">
+                                <div id="nomes"></div>
+                                <p class="tete"></p> 
+                            </div>
+                    </div>
+                    <input type="submit" value="Enviar" class="enviarcat"/>
+                    </label>
+                </div>
+            </div>
+            <div class="box_arq">
+                <h1>Enviar Arquivos</h1>
+                <input type="file" name="arquivos"/> <br/><br/>
+                <input type="submit" value="Enviar" class="enviarcat"/>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fim">
+            <h1>Contato: conselho@fcbrusque.sc.gov.br</h1>
+            <p>Página criada pelos alunos da segunda fase de Sistemas de Informação - Unifebe - Brusque - SC</p>
+        </div>
+    </footer>
+        <script type="text/javascript" src="usuario.js"></script>
+</body>
+</html>
